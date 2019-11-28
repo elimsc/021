@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "downlevelIteration": true,
+        "module": "esnext",
+        "target": "es5",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "outDir": "./dist",
+        "jsx": "react",
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "dist",
+    ]
+}
