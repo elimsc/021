@@ -469,7 +469,7 @@ class Home extends React.Component<Props, State> {
                             </Form.Item>
                             <Form.Item label="bias">
                                 {getFieldDecorator('update_ann_biases', {
-                                    initialValue: ann ? ann.expected_outputs : "",
+                                    initialValue: ann ? ann.biases : "",
                                     rules: [
                                         {
                                             required: true,
