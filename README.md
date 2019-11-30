@@ -9,3 +9,7 @@ crud:
 - static files and template rendering
 - others: logging, config file ...
 - cookie, session, xsrf: login form
+
+- [ ] reliable data transfer based on UDP
+- [ ] JSON parser
+- [ ] route match algorithm
