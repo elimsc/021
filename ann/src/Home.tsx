@@ -131,7 +131,7 @@ class Home extends React.Component<Props, State> {
         this.setState({ selectedUnit: unit, editUnitModal: true });
     }
 
-    // 双击层，用户编辑
+    // 双击层，用于编辑
     handleLayerDoubleClick = (layer: Layer) => {
         this.setState({ selectedLayer: layer, editLayerModal: true });
     }
