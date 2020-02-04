@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Unit as UnitModel } from '../model/ann2';
+import { Unit as UnitModel } from '../model/ann';
 
 interface Props {
     width: number,

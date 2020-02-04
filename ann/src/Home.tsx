@@ -4,7 +4,7 @@ import { FormComponentProps } from 'antd/es/form';
 
 import LayerView from './components/Layer';
 import LineView from './components/Line';
-import { ANN, Unit, Layer } from './model/ann2';
+import { ANN, Unit, Layer } from './model/ann';
 
 message.config({
     top: 30,

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Unit from './Unit';
-import { Layer as LayerModel } from '../model/ann2';
+import { Layer as LayerModel } from '../model/ann';
 
 interface Props {
     unitWidth: number, // 神经元的半径
